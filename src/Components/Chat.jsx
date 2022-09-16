@@ -49,12 +49,12 @@ export const Chat = () => {
     <div className="outerCotainer">
       <div className="container">
         <Infobar room={room} />
-        {/* <input
+        <input
           type="text"
           value={message}
           onChange={(e) => setMessages(e.target.value)}
           onKeyDown={(e) => (e.key === "Enter" ? sendMessage(e) : null)}
-        /> */}
+        />
       </div>
     </div>
   );
