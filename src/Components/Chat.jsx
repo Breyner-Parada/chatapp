@@ -15,7 +15,7 @@ export const Chat = () => {
   const [message, setMessage] = React.useState([]);
   const [messages, setMessages] = React.useState([]);
   const location = useLocation();
-  const endpoint = "http://localhost:3001";
+  const endpoint = "https://http-nodejs-production-b74c.up.railway.app/";
 
   React.useEffect(() => {
     const { name, room } = queryString.parse(location.search);
